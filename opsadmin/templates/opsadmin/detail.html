@@ -1,0 +1,6 @@
+<h1>{{ name.name }} </h1>
+<u1>
+{% for i in name.choice_set.all %}
+	<li>{{ i.name}}</li>
+{% endfor %}
+</u1>

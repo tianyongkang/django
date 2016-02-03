@@ -1,0 +1,9 @@
+{% if latest_question_list %}
+	<u1>
+	{% for question in latest_question_list %}
+		<li><a href="/opsadmin/{{ question.id }}/"> {{ question.name }}</a></li>
+	{% endfor %}
+	</u1>
+{% else %}
+	<p>No Polls are availale.</p>
+{% endif %}
