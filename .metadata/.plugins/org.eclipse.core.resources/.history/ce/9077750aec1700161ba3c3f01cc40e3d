@@ -1,0 +1,6 @@
+class test:
+    count = 0
+    def __init__(self,c):
+        self.count = 0
+
+print test(1).count

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Es-elk/es_get_data&apos; to &apos;es_get_data.py&apos;" description="Rename resource &apos;es_get_data&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="es_get_data" name="es_get_data.py" stamp="1462604054378" updateReferences="true"/>
+</session>

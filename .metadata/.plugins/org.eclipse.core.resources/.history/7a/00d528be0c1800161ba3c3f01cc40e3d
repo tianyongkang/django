@@ -1,0 +1,11 @@
+#-*- coding:UTF-8 -*-
+
+import es_config_file
+import es_get_data 
+
+def excute_es_alert():
+    es_config_file.Es_index().es_get_index()
+    es_get_data.Es_Alert_filter('logstash-ucenter-tomcat-log-2016.05.12').es_get_filter()
+    
+
+excute_es_alert()

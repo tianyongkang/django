@@ -1,0 +1,17 @@
+#-*- coding:UTF-8 -*-
+
+import es_config_file
+import es_get_data 
+
+
+def excute_es_alert():
+    index = es_config_file.Es_index().es_get_index()
+    for i in index:
+        print i
+    for i in index:
+        es_get_data.Es_alert(i).es_get_timezone()
+        
+
+#excute_es_alert()
+
+excute_es_alert()

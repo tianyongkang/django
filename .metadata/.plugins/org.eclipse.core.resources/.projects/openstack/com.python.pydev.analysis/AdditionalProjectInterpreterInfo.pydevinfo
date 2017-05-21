@@ -1,0 +1,16 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/tianyongkang/Desktop/django/.metadata/.plugins/org.eclipse.core.resources/.projects/openstack/com.python.pydev.analysis/v2_indexcache
+get_nova_credentials_v2|1457678396000000000|/Users/tianyongkang/openstack/get_nova_credentials_v2.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=get_nova_credentials_v2
+-- END DICTIONARY
+-- START TREE 1
+1
+get|1|get_nova_credentials_v2!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

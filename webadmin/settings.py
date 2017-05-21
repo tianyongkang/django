@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'webadmin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'opsadmin',
+        'NAME': 'webadmin',
         'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD': '111111',
+        'PASSWORD': '1234.com',
     }
 }
 

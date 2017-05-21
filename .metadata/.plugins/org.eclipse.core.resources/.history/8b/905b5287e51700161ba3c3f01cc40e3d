@@ -1,0 +1,6 @@
+#-*- coding:UTF-8 -*-
+
+import es_conf_file
+import es_get_data 
+
+print es_get_file.Es_index().es_get_index
